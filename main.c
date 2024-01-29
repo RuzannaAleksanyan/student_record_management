@@ -1,7 +1,6 @@
 // #include "student.h"
 #include "academy.h"
 
-
 void student_record_management(struct Academy* academy);
 
 int main() {
