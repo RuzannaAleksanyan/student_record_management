@@ -63,12 +63,13 @@ int load_from_file(struct Academy* academy) {
         } else if (read_count != EOF) {
             printf("Error reading data from file. Skipping invalid record.\n");
         }
-        ++line_cont;
+        // ++line_cont;
+        line_cont = student.id;
     }
 
     fclose(file);
 
-    return line_cont;
+    return line_cont ;
 }
 
 void write_in_file(struct Academy* academy) {

@@ -1,7 +1,7 @@
 CC = gcc
 CFLAGS = -Wall -Wextra
 TARGET = student_record_management
-SRCS = main.c academy.c 
+SRCS = main.c academy.c student_record_management.c
 OBJS = $(SRCS:.c=.o)
 HEADERS = academy.h student.h
 
