@@ -1,0 +1,7 @@
+ID    Name            Surname         Age   Grade
+1     Aram            Vardanyan       21    1    
+2     Amina           Hayrapetyan     19    3    
+3     Karen           Karapetjan      20    2    
+4     Hermine         Gevorgyan       24    4    
+5     Milena          Mnacakanyan     18    1    
+6     Karmen          Minasyan        22    2    
