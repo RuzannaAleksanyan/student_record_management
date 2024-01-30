@@ -8,4 +8,6 @@ int main() {
     allocate_students(&academy);
 
     student_record_management(&academy);
+
+    deallocate_students(&academy);
 }
