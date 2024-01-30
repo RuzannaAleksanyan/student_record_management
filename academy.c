@@ -19,6 +19,10 @@ void allocate_students(struct Academy* academy) {
     academy->size = 0;
 }
 
+void deallocate_students(struct Academy* academy) {
+    free(academy->students);
+}
+
 void add_student(struct Academy* academy, struct Student* student) {
     if(academy->size == STUDENT_MAX_COUNT) {
         // chenq karox usanox avelacnel tex chunenalu patcharov
